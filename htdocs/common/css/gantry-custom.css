@@ -1,0 +1,39 @@
+/* G and H Ramblers Gantry overwrite */
+
+/*  Body and header */
+body {
+    background-color: #fff;
+}
+
+#mod-finder-searchform { margin-top: 30px; }
+
+
+#rt-breadcrumbs .rt-block {
+    font-size: 12px;
+    margin: 5px 0 0 !important;
+    padding: 5px !important;
+}
+.breadcrumb .divider {
+    padding:0;
+}
+
+.component-content h2 {
+    color: #782327;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.module-title h2.title {
+    font-size: 130%;
+    line-height: 20px;
+}
+
+ul.walksfeed li {
+    list-style-image: url("../../../images/icons/bull-green.png");
+    margin-bottom: 5px;
+}
+
+ul.gList1 li {
+    list-style-image: url("../../../images/icons/tick_box.png");
+}

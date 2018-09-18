@@ -1,0 +1,182 @@
+/* G and H Ramblers Walks Program */
+
+/*  Body and header */
+body {
+    font: 75% Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    min-width: 960px;
+    padding: 0;
+}
+a {text-decoration: none;}
+#gh-body {
+    background-color: #E4E4E4;
+}
+#ghwf-kho {
+    background-color: #FFFFFF;
+    width: 960px;
+    margin: 0 auto;
+}
+
+div#ramblersheader {
+    height: 94px;
+    position: relative;
+    width: 100%;
+}
+
+h1#ramblerstitle {
+    font-family: Arial,Tahoma,sans-serif;
+    color: #206C49;
+    font-size: 230%;
+    font-weight: bold;
+    left: 120px;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+    z-index: 99;
+}
+img#ralogo {
+    left: 10px;
+    position: absolute;
+    top: 2px;
+    z-index: 99;
+}
+#area { padding-right: 10px;}
+h2#strap{
+    color: #655002;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    white-space: nowrap;
+    z-index: 99;
+}
+
+/* Main menu */
+#main-menu {
+    background-color: #C75B12;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 89;
+    margin: 0;
+    width: 100%;
+    min-height: 20px;
+}
+
+ul#gh-menu {
+    display: block;
+    float: left;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+}
+ul#gh-menu li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+ul#gh-menu li.current {
+    background-color: #78370C;
+}
+
+#gh-menu a, #gh-menu a:active, #gh-menu a:hover {
+    color: #ffffff; text-decoration: none;
+    line-height: 30px;
+}
+ul#gh-menu li a {display:block;  padding-left: 15px;
+    padding-right: 15px;}
+
+ul#gh-menu li a:hover, ul li a:focus {
+    background-color: #78370C;
+}
+
+ul#gh-menu > li {
+    border-right: 1px solid #AB4E10;
+}
+
+ul#gh-menu img {
+    border: medium none;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+#gh-menu li ul {
+    display: none;
+    width: 200px; /* Width to help Opera out */
+    background-color: #C75B12;}
+#gh-menu li:hover ul, #gh-menu li.hover ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0; }
+#gh-menu li:hover li, #gh-menu li.hover li {
+    float: none; }
+#gh-menu li:hover li a, #gh-menu li.hover li a {
+    background-color: #C75B12;
+    border-bottom: 1px solid #fff;
+    color: #fff; }
+#gh-menu li li a:hover {
+    background-color: #78370C; }
+
+#gh-menu li ul li.current {
+    background-color: #78370C !important;
+}
+#gh-menu li ul li.current > a {
+      background-color: #B35512;
+      border-top-color: #B35512;
+  }
+
+/* main content */
+#main-cont {
+    clear: left;
+    color: #333333;
+    font-size: 110%;
+    /*display: inline;
+    float: left;
+    margin: 0 0 5px;*/
+    padding: 0 10px;
+}
+h2 {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 0;
+}
+
+.clearbreak {clear: both;}
+
+#subMenu { display: block; clear: both; padding-bottom: 10px; padding-top: 5px;}
+
+/* Data tables */
+
+
+#dataTable .ui-widget-header {font-size: 0.9em; padding:3px;}
+
+#dataTable table.display thead th div.DataTables_sort_wrapper {
+    position: relative;
+    padding-right: 20px;
+}
+
+#dataTable table.display thead th div.DataTables_sort_wrapper span {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 0;
+}
+
+#dataTable table.display tr.even {
+    background-color: #FFFFFF;
+}
+#dataTable table.display tr.odd {
+    background-color: #FFFBEF !important;
+}
+
+
+/* General */
+.align_left {text-align: left;}
+.align_center {text-align: center;}
+.align_right {text-align: right;}
+
+.left {float: left;}
+.right {float: right;}
